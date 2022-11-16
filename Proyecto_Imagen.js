@@ -105,7 +105,7 @@ function mousePressed(){
   let img = createImage(carga.width, carga.height);
   //Se cargan los pixeles
   img.loadPixels();
-  //Recorre la imagen, la carga y la guarda.
+  //Recorre la imagen la carga y la guarda.
   for(let i = 0; i <= carga.width; i++) {
     for(let j = 0; j <= carga.height; j++) {
     img.set(i, j, get(i,j));
